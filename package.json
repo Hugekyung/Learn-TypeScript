@@ -4,7 +4,12 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "start": "node index.js ",
-        "prestart": "tsc"
+        "start": "tsc-watch --onSuccess \" node dist/class.js\" "
+    },
+    "devDependencies": {
+        "tsc-watch": "^4.6.2"
+    },
+    "dependencies": {
+        "typescript": "^4.6.3"
     }
 }
