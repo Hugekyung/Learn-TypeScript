@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "start": "tsc-watch --onSuccess \" node dist/function.js\" "
+        "start": "tsc-watch --onSuccess \" node dist/interface2.js\" "
     },
     "devDependencies": {
         "tsc-watch": "^4.6.2"
