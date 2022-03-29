@@ -36,7 +36,7 @@ type Capt = Person & Developer; // Person 과 Developer의 합집합
 function introduce(someone: Person | Developer) {
     someone.name;
     someone.age;
-    someone.skill; // ! Person으로 타입을 추론할 경우 skill값을 알 수 없어 에러 발생
+    // someone.skill; // ! Person으로 타입을 추론할 경우 skill값을 알 수 없어 에러 발생
 }
 
 // * 공통 속성인 someone.name만 접근 가능하다
